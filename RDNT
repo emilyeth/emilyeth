@@ -1,0 +1,21 @@
+为了让更多的人熟悉era的合约开发，这里做了一个简单的教程
+
+本repo为大家制作了一个简单的era合约，通过在合约中计数完成交互，gas为0.3的时候，每次交互费用大约是0.2usd
+
+（点击以下链接了解当前gas情况:https://cointool.app/gasPrice/zksync-era)
+
+如想在部署前先尝试合约，可以使用16进制的方法交互
+
+方法是在metamask的高级选项中打开16进制
+
+然后给一下地址发送0eth，16进制字段为hex等号后的一串字符
+
+contract_address = 0x737dE2e406571231663109A5fF0a9c1E1c448335
+
+hex = 0x8ada066e
+
+era不同于arb和op，无法在remix中直接部署
+
+所以需要在本地安装hardhat并部署成era的开发环境，整个过程会有点困难，但是一旦完成环境的安装，后面的部署会非常舒适
+
+这里会提供一个简单的操作方法，具体方法可以参考era官方文档：https://era.zksync.io/docs/dev/building-on-zksync/hello-world.html#prerequisites
